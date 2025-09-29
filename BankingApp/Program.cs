@@ -31,6 +31,13 @@ void BuildBankingApp()
         {
             //Deposit or withdraw funds
             Console.WriteLine("You have chosen to deposit or withdraw funds");
+            Console.WriteLine("How much do you want to deposit?");
+            Console.WriteLine("Enter amount including pence using a decimal point");
+
+            //Typically a currency value is input as a decimal value
+            //so the "double" type is required to store deposit amount
+
+            depositAmount = Convert.ToDouble(Console.ReadLine());
         }
         else
         {
