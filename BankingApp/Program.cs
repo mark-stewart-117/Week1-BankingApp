@@ -7,6 +7,8 @@ void BuildBankingApp()
     //Initalise variable
     //Note that an amount is not assigned to the variable
     int choice;
+    double depositAmount;
+    double accountBalance = 1000.00;
 
     //Display main menu screen
     Console.WriteLine("Please choose an option");
